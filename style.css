@@ -93,7 +93,7 @@ section #text {
     text-align: center;
     line-height: 0.55em;
     font-family: 'Rancho', cursive;
-    transform: translateY(-300px);
+    transform: translateY(-200px);
 }
 
 section #text span {

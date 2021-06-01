@@ -25,36 +25,11 @@
             <img src="img/water.png" id="water">
         </section>
         <div class="sec">
-            <h2>Parallax Scrolling effects</h2>
-            <p>asdfasdfdfasdfasfasfadfadfadsfadfadfasdfsadfadsfaf
-                <br><br>
-                asdfasdfdfasdfasfasfadfadfadsfadfadfasdfsadfadsfaf
-                <br><br>
-                asdfasdfdfasdfasfasfadfadfadsfadfadfasdfsadfadsfaf
-                <br><br>
-                asdfasdfdfasdfasfasfadfadfadsfadfadfasdfsadfadsfaf
-                <br><br>
-                asdfasdfdfasdfasfasfadfadfadsfadfadfasdfsadfadsfaf
-                <br><br>
-                asdfasdfdfasdfasfasfadfadfadsfadfadfasdfsadfadsfaf
-                <br><br>
-                asdfasdfdfasdfasfasfadfadfadsfadfadfasdfsadfadsfaf
-                <br><br>
-                asdfasdfdfasdfasfasfadfadfadsfadfadfasdfsadfadsfaf
-                <br><br>
-                asdfasdfdfasdfasfasfadfadfadsfadfadfasdfsadfadsfaf
-                <br><br>
-                v
-                asdfasdfdfasdfasfasfadfadfadsfadfadfasdfsadfadsfaf
-                <br><br>
-
-                asdfasdfdfasdfasfasfadfadfadsfadfadfasdfsadfadsfaf
-                <br><br>
-                asdfasdfdfasdfasfasfadfadfadsfadfadfasdfsadfadsfaf
-                <br><br>
-                asdfasdfdfasdfasfasfadfadfadsfadfadfasdfsadfadsfaf
-                <br><br>
-                
+            <h2>Scrolling-Animation</h2>
+            <p>
+                This project uses css styles and javascript animation effect.
+                <br>Headers buttoms are not working :)
+                <br><br>This poject is leanred from online crash course, with customized optimization on the scrolling effects. (images are from online)
             </p>
         </div>
         <div>
@@ -70,11 +45,11 @@
                 window.addEventListener('scroll', function(){
                     let value = window.scrollY;
                     
-                    text.style.top = 50 + value * -0.5 + '%';
-                    bird1.style.top = value * -1.5 + 'px';
-                    bird1.style.left = value * 2 + 'px';
-                    bird2.style.top = value * -1.5 + 'px';
-                    bird2.style.left = value * -5 + 'px';
+                    text.style.top = 50 + value * -0.1 + '%';
+                    bird1.style.top = value * -0.5 + 'px';
+                    bird1.style.left = value * 1 + 'px';
+                    bird2.style.top = value * -0.5 + 'px';
+                    bird2.style.left = value * -1 + 'px';
                     btn.style.marginTop = value * 1.5 + 'px';
                     rocks.style.top = value * -0.12 + 'px';
                     forest.style.top = value * 0.25 + 'px';
