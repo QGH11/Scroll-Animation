@@ -12,11 +12,10 @@ body {
     overflow-x: hidden;     /* hide the overflow */
     background: #fff;
     min-height: 100vh;
-
 }
 
 #header {
-    position: abosulte;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -51,6 +50,7 @@ body {
     color: #094b65;
     border-radius: 20px;
 }
+
 #header ul li a:hover, #header ul li a.active {
     background: #094b65;
     color: #fff;
