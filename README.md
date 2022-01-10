@@ -5,4 +5,4 @@ Use HTML and CSS to create a one-page scroll effect <br />
 
 *Use Visual Studio Code </br>
 
-Learn from Youtube Videp: https://www.youtube.com/watch?v=mgk_2d4lhm8
+Learned from Youtube Video: https://www.youtube.com/watch?v=mgk_2d4lhm8
